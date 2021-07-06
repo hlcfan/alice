@@ -6,7 +6,7 @@ jobs:
   build:
     working_directory: ~/alice
     docker:
-      - image: circleci/elixir:1.7
+      - image: circleci/elixir:1.12
         environment:
           MIX_ENV: test
     steps:
